@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://daylise-developer-portfolio.vercel.app/sitemap.xml
