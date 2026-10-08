@@ -147,11 +147,13 @@
         <h2>Looking for an entry-level developer who knows how to use AI responsibly?</h2>
         <p>I am open to opportunities where I can keep growing while contributing through problem-solving, testing, iteration, web development, and AI-assisted workflows.</p>
         <div class="button-row">
-          <a class="button primary" href="mailto:daylisebaber@gmail.com">Email Daylise</a>
+          <a class="button primary" href="mailto:daylisebaber@gmail.com?subject=Developer%20Opportunity%20for%20Daylise%20Baber">Email Daylise</a>
+          <button class="button secondary" id="copy-email" type="button" data-email="daylisebaber@gmail.com">Copy email</button>
           <a class="button secondary" href="https://github.com/daylisecodes" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a class="button secondary" href="https://www.linkedin.com/in/daylise-baber-458b75322/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
-        <p class="contact-meta">Las Vegas, NV · daylisebaber@gmail.com</p>
+        <p class="contact-meta">Las Vegas, NV · <a href="mailto:daylisebaber@gmail.com">daylisebaber@gmail.com</a></p>
+        <p class="copy-status" id="copy-email-status" aria-live="polite"></p>
       </div>
     </section>
   </main>
@@ -162,5 +164,21 @@
       <div class="footer-links"><a href="https://github.com/daylisecodes" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/daylise-baber-458b75322/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
     </div>
   </footer>
+<script>
+  const copyEmailButton = document.getElementById("copy-email");
+  const copyEmailStatus = document.getElementById("copy-email-status");
+  if (copyEmailButton) {
+    copyEmailButton.addEventListener("click", async () => {
+      const email = copyEmailButton.dataset.email;
+      try {
+        await navigator.clipboard.writeText(email);
+        copyEmailStatus.textContent = "Email copied: " + email;
+        copyEmailButton.textContent = "Copied!";
+      } catch {
+        copyEmailStatus.textContent = "Email: " + email;
+      }
+    });
+  }
+</script>
 </body>
 </html>
