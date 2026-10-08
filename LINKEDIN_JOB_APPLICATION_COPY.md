@@ -31,11 +31,15 @@ Code: https://github.com/daylisecodes/free-flowing-financial-literacy
 
 ## Job application — portfolio field
 
-Use your final portfolio URL once deployed.
+https://daylise-developer-portfolio.vercel.app
 
 ## Job application — GitHub field
 
 https://github.com/daylisecodes
+
+## LinkedIn profile
+
+https://www.linkedin.com/in/daylise-baber-458b75322/
 
 ## Short application note
 
