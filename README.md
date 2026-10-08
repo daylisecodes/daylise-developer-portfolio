@@ -18,8 +18,12 @@ https://github.com/daylisecodes
 
 ## Deployment
 
-This portfolio is prepared for static hosting on Vercel. The final live portfolio URL should be added here after deployment.
+Live portfolio: https://daylise-developer-portfolio.vercel.app
 
 ## Responsible presentation
 
 The portfolio describes AI-assisted development accurately. It does not claim unaided mastery of technologies or work the developer did not perform. The focus is on product ownership, requirements, implementation, testing, debugging, iteration, and deployment.
+
+## LinkedIn
+
+https://www.linkedin.com/in/daylise-baber-458b75322/
