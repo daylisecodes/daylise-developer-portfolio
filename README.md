@@ -4,11 +4,13 @@ Public portfolio for Daylise Baber, an entry-level AI-assisted developer based i
 
 ## Featured projects
 
+- **Healthcare Claims Practice Lab** — HTML / CSS / JavaScript healthcare claims training and workflow demo
 - **Walking With Jesus** — Next.js / React / TypeScript faith-centered web app
 - **Free Flowing Financial Literacy** — HTML / CSS / JavaScript interactive financial education app
 
 ## Live project links
 
+- Healthcare Claims Practice Lab: https://healthcare-claims-practice-lab.vercel.app/
 - Walking With Jesus: https://walking-with-jesus-taupe.vercel.app
 - Free Flowing Financial Literacy: https://free-flowing-financial-literacy.vercel.app
 
